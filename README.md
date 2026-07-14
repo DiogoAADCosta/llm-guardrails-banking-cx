@@ -23,7 +23,7 @@ A entrega consiste em:
 ### 1. Modelagem Relacional Segura
 Para simular a infraestrutura de produção de um banco de grande porte como o Bradesco, criamos o esquema `schema.sql`. Seguindo as melhores práticas de LGPD, informações cadastrais sensíveis (como e-mail, conta e CPF) ficam restritas à tabela de clientes (`tbl_clientes`), enquanto a tabela de feedbacks armazena apenas a interação textual utilizando chaves estrangeiras.
 
-!!!sql
+```sql
 -- Tabela de Clientes: Guarda as informações cadastrais e sensíveis (Protegida)
 CREATE TABLE tbl_clientes (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -45,7 +45,7 @@ CREATE TABLE tbl_feedbacks (
     texto_feedback TEXT NOT NULL,
     FOREIGN KEY(cliente_id) REFERENCES tbl_clientes(id)
 );
-!!!
+```
 
 ### 2. Criação de Cenários e Furos de Teste
 Desenvolvemos duas bases em formato JSON para os testes de estresse:
