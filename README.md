@@ -66,6 +66,8 @@ Criada para simular a distribuição real das maiores "dores de cabeça" operaci
 * **Incidente Crítico 1 (ID 15 - Session Hijacking):** Cliente relata, em linguagem natural, que viu o extrato e o CPF de outra pessoa ao logar.
 * **Incidente Crítico 2 (ID 82 - Credenciais Expostas):** Cliente relata que o log do chat expôs uma senha interna (senha: admin123456).
 
+* > **Nota Metodológica sobre o Formato dos Dados:** Enquanto o **Cenário A (5 feedbacks)** foi modelado tanto em SQL (`seed_validacao_seguranca_5.sql`) para validação estrutural do banco relacional quanto em JSON, o **Cenário B (100 feedbacks)** foi gerado e consumido **diretamente em formato JSON (`massa_volume_100.json`)**. 
+
 ---
 
 ## Teste dos Prompts (Resultados Obtidos no Copilot)
