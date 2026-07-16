@@ -1,5 +1,7 @@
 # Laboratório de Engenharia de Prompt: Análise Segura de CX e Conformidade LGPD
 
+[READ THIS IN ENGLISH](./README_EN.md)
+
 ## Sobre o Projeto
 Este repositório foi desenvolvido como uma solução avançada e estendida para o Desafio Criativo do Módulo 2 do **Bootcamp Bradesco - Extraindo Insights do Feedback de Clientes Bancários**, promovido pela **DIO**.
 
@@ -68,7 +70,7 @@ Criada para simular a distribuição real das maiores "dores de cabeça" operaci
 * **Incidente Crítico 1 (ID 15 - Session Hijacking):** Cliente relata, em linguagem natural, que viu o extrato e o CPF de outra pessoa ao logar.
 * **Incidente Crítico 2 (ID 82 - Credenciais Expostas):** Cliente relata que o log do chat expôs uma senha interna (senha: admin123456).
 
-> 💡 **Nota Metodológica sobre o Format dos Dados:** Enquanto o **Cenário A (5 feedbacks)** foi modelado tanto em SQL ([seed_validation.sql](database/seeds/seed_validation.sql)) para validação estrutural do banco relacional quanto em JSON ([massa_validacao_seguranca_5.json](database/seeds/massa_validacao_seguranca_5.json)), o **Cenário B (100 feedbacks)** foi gerado e consumido **diretamente em formato JSON ([massa_volume_100.json](database/seeds/massa_volume_100.json))**. 
+> 💡 **Nota Metodológica sobre o Formato dos Dados:** Enquanto o **Cenário A (5 feedbacks)** foi modelado tanto em SQL ([seed_validation.sql](database/seeds/seed_validation.sql)) para validação estrutural do banco relacional quanto em JSON ([massa_validacao_seguranca_5.json](database/seeds/massa_validacao_seguranca_5.json)), o **Cenário B (100 feedbacks)** foi gerado e consumido **diretamente em formato JSON ([massa_volume_100.json](database/seeds/massa_volume_100.json))**. 
 
 ---
 
