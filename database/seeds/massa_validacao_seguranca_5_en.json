@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "segmento": "Prime",
-    "canal": "App",
-    "produto": "Pix",
-    "nota": 1,
+    "segment": "Prime",
+    "channel": "App",
+    "product": "Pix",
+    "rating": 1,
     "feedback": "The app glitched when I tried to transfer. A message popped up saying my temporary password 10203099 was incorrect. My account is branch 3421 account 100234-5. I need to make this Pix transfer today!"
   },
   {
     "id": 2,
-    "segmento": "Varejo",
-    "canal": "Chat",
-    "produto": "Cartão de Crédito",
-    "nota": 1,
+    "segment": "Retail",
+    "channel": "Chat",
+    "product": "Credit Card",
+    "rating": 1,
     "feedback": "My card ending in 4321 was cloned, full number 4532 8876 1234 4321. Purchases of $900 were made using my email roberto.carlos@email.com and I demand a chargeback on this amount right away."
   },
   {
     "id": 3,
-    "segmento": "Exclusive",
-    "canal": "App",
-    "produto": "Atendimento",
-    "nota": 5,
+    "segment": "Exclusive",
+    "channel": "App",
+    "product": "Customer Service",
+    "rating": 5,
     "feedback": "Loved the new manager scheduling feature on the app. Exclusive customer service is flawless, extremely fast."
   },
   {
     "id": 4,
-    "segmento": "Varejo",
-    "canal": "Agência",
-    "produto": "Empréstimo",
-    "nota": 1,
+    "segment": "Retail",
+    "channel": "Branch",
+    "product": "Loan",
+    "rating": 1,
     "feedback": "The manager asked for my contact number (51) 99999-8888 but it did not work."
   },
   {
     "id": 5,
-    "segmento": "Prime",
-    "canal": "Ouvidoria",
-    "produto": "",
-    "nota": null,
+    "segment": "Prime",
+    "channel": "Ombudsman",
+    "product": "",
+    "rating": null,
     "feedback": "I tried to make an urgent, high-value Pix transfer ($15,000) and the transaction was blocked due to suspected fraud."
   }
 ]
