@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "segmento": "Prime",
+    "canal": "App",
+    "produto": "Pix",
+    "nota": 1,
+    "feedback": "O app deu erro na hora de transferir. Apareceu mensagem que minha senha provisória 10203099 estava incorreta. Minha conta é agência 3421 conta 100234-5. Preciso fazer esse Pix hoje!"
+  },
+  {
+    "id": 2,
+    "segmento": "Varejo",
+    "canal": "Chat",
+    "produto": "Cartão de Crédito",
+    "nota": 1,
+    "feedback": "Clonaram meu cartão de final 4321, número completo 4532 8876 1234 4321. Fizeram compras de R$ 900 no meu e-mail roberto.carlos@email.com e eu exijo o estorno desse valor agora."
+  },
+  {
+    "id": 3,
+    "segmento": "Exclusive",
+    "canal": "App",
+    "produto": "Atendimento",
+    "nota": 5,
+    "feedback": "Adorei a nova função de agendamento de gerente pelo aplicativo. Atendimento Exclusive impecável, muito rápido."
+  },
+  {
+    "id": 4,
+    "segmento": "Varejo",
+    "canal": "Agência",
+    "produto": "Empréstimo",
+    "nota": 1,
+    "feedback": "O gerente pediu meu telefone de contato (51) 99999-8888 mas não funcionou."
+  },
+  {
+    "id": 5,
+    "segmento": "Prime",
+    "canal": "Ouvidoria",
+    "produto": "",
+    "nota": null,
+    "feedback": "Tentei fazer uma transferência Pix urgente de alto valor (R$ 15.000) e a transação foi bloqueada por suspeita de fraude."
+  }
+]
