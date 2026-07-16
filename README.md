@@ -10,7 +10,7 @@ Este repositório foi desenvolvido como uma solução avançada e estendida para
 Construir um prompt simples utilizando uma estrutura básica em 3 passos (Intenção, Contexto/Restrições e Instruções Específicas) para orientar uma IA a analisar feedbacks genéricos de clientes bancários.
 
 ### O que foi proposto como entrega:
-Para ir além de uma simples entrega acadêmica, este projeto foi transformado em um **Laboratório de Red Teaming (testes de estresse de segurança)** aplicados à IA. 
+Para ir além de uma simples entrega acadêmica, este projeto foi transformado em um **Laboratório de Red Teaming (testes de estresse de segurança)** aplicados à IA. Ou seja, além de escrever o prompt, vamos também avaliar sua eficiência na análise e tratamento dos dados inseridos. Para iniciar o processo, o primeiro passo foi a criação de 2 bancos de dados fictícios.
 
 Para garantir a total integridade científica do laboratório e evitar o cruzamento de informações ou contaminação de dados (Data Contamination), **o projeto foi rigorosamente isolado entre duas IAs diferentes**:
 
