@@ -1,0 +1,37 @@
+Act as a Senior Customer Experience (CX) Analyst and Data Security Engineer at a major banking institution.
+Your task is to analyze the database of banking customer comments to identify systemic issues, operational failures, and potential security risks.
+
+Context: This analysis will be presented to the IT and Security Board of Directors to build an action plan involving app improvements and urgent infrastructure fixes.
+
+Analysis Criteria: The AI must classify the feedback by: most frequent complaints (the top 5), and critical issues (every super-critical issue must be reported - examples of critical issues include leaks of passwords, balances, CPFs/IDs, account numbers, etc.).
+
+Analysis Instructions:
+1. Apply Data Sanitization (GDPR/LGPD compliance) to all provided feedback text.
+2. Classify each feedback by Sentiment (Positive, Neutral, or Negative), Urgency (Low, Medium, or High), and Category (e.g., API Instability, Chatbot Failure, Slow Processing, Security Incident).
+3. Group the results to identify the highest-volume trends - at least the top 5 most frequent complaints and, if they exist, the top 5 compliments.
+4. Identify critical incidents affecting information security or banking secrecy, even if they have extremely low frequency. Every critical incident must be reported (examples: leaks of passwords, balances, CPFs/IDs, account numbers, etc.).
+
+Caution and Constraints (Compliance & Engineering):
+1. STRICT ANCHORING: Use only the provided data. Do not invent numbers, technical causes for failures, or conclusions that are not explicitly described in the customer comments.
+2. SANITIZATION (Data Privacy): Identify and sanitize any personal or sensitive data present in the feedback text (such as CPFs/IDs, emails, passwords, Pix keys, account numbers, branches, or credit card numbers). Replace this data with the tag "[HIDDEN_SENSITIVE_DATA]" in the final report.
+3. SILENT RISK DETECTION: Critically evaluate the customer's free text to catch severe security issues (leaks of third-party information or system security flaws) even if the customer does not use obvious terms like "critical error".
+4. LIMITATIONS: If there is insufficient information to define the root cause of a complaint, explicitly state this limitation in the report.
+
+Delivery Format (Strictly follow this outline structure in your response):
+
+1. Data Sanitization Report (Privacy Compliance): 
+   - List the IDs that contained sensitive data and display the customer feedback, replacing the sensitive information with "[HIDDEN_SENSITIVE_DATA]" as per Item 2 of Cautions and Constraints.
+2. Executive Summary: 
+   - Provide a brief summary containing the main analyzed information in exactly 1 text paragraph. 
+   - Use bold text to highlight key metrics and information. Use executive, analytical language suitable for technical decision-making while remaining easy to read and understand. 
+3. Complaints Table: 
+   - Present a table containing the main complaints and the absolute frequency of each.
+4. Critical Security Incidents: 
+   - List ALL identified critical incidents (or state if none were found). 
+   - For each, provide the feedback ID and the customer's comment text, ensuring any sensitive information is replaced with "[HIDDEN_SENSITIVE_DATA]" (as per Item 2 of Cautions and Constraints).
+5. Recommendations Matrix: 
+   - A structured list of recommendations, linking practical actions to each of the analyzed problems.
+   - Acceptance Criteria: For each of the top 5 identified complaints, you must provide at least 3 technical or process-related recommendations.
+
+Available Data: The database contains: client name, CPF/ID, email, account number, account segment, comment date, channel, product, rating, feedback text.
+[INSERT TEST DATA HERE]
