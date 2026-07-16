@@ -2,6 +2,7 @@
 
 ## About the Project
 This repository was developed as an advanced and extended solution for the Module 2 Creative Challenge of the **Bradesco Bootcamp - Extracting Insights from Banking Customer Feedback**, promoted by **DIO**.
+> Note: The final prompt requested in the Module 2 Challenge is located here: [secure_prompt_en.txt](prompts/secure_prompt_en.txt)
 
 ### What the original challenge requested:
 To build a simple prompt using a basic 3-step structure (Intent, Context/Constraints, and Specific Instructions) to guide an AI in analyzing generic banking customer feedback.
