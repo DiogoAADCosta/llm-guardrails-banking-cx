@@ -4,6 +4,7 @@
 
 ## Sobre o Projeto
 Este repositório foi desenvolvido como uma solução avançada e estendida para o Desafio Criativo do Módulo 2 do **Bootcamp Bradesco - Extraindo Insights do Feedback de Clientes Bancários**, promovido pela **DIO**.
+> Obs: O prompt final pedido no Desafio do Módulo 2 é esse: [secure_prompt.txt](prompts/secure_prompt.txt)
 
 ### O que o desafio original pedia:
 Construir um prompt simples utilizando uma estrutura básica em 3 passos (Intenção, Contexto/Restrições e Instruções Específicas) para orientar uma IA a analisar feedbacks genéricos de clientes bancários.
