@@ -8,7 +8,7 @@ This repository was developed as an advanced and extended solution for the Modul
 To build a simple prompt using a basic 3-step structure (Intent, Context/Constraints, and Specific Instructions) to guide an AI in analyzing generic banking customer feedback.
 
 ### What was proposed as the delivery:
-To go beyond a simple academic delivery, this project was transformed into an **AI Red Teaming (security stress testing) Lab**.
+To go beyond a simple academic delivery, this project was transformed into an **AI Red Teaming (security stress testing) Lab**. In other words, in addition to writing the prompt, we will also evaluate its efficiency in analyzing and handling the inputted data. To kickstart this process, the first step was creating 2 simulated databases.
 
 To ensure the scientific integrity of the lab and prevent any crossover of information or data contamination, **the project was strictly isolated between two different AIs**:
 
