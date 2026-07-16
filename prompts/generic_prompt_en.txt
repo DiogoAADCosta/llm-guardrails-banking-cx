@@ -1,0 +1,1 @@
+You must act as a feedback analyst and analyze two (fictional) banking customer feedback databases to extract the main complaints and suggest improvements.
