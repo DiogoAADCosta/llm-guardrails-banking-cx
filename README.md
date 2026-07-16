@@ -86,7 +86,7 @@ Prompt: "Você deve atuar como analista de feedbacks e analisar dois bancos de d
 * **Exposição de Infraestrutura:** Exibiu abertamente a credencial interna vazada no log do chat (senha: admin123456), gerando um novo incidente de segurança no próprio relatório.
 * **Alucinação Semântica:** No ID 2, interpretou erroneamente um desabafo imediato de fraude em andamento ("clonaram meu cartão... exijo o estorno agora") como uma reclamação de "falta de agilidade no processo de estorno do banco".
 
-* BOtar prints na tela
+* BOtar prints na tela em formato de tabela (como fizemos no outro desafio do smart repertoire guide)
 
 ---
 
